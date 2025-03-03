@@ -7,148 +7,107 @@
 <br>
 <br>
 
-# Projeto de Análise Exploratória de Dados 🌡️📊  
-Estudo de Temperaturas na Cidade de Bauru (2004-2024)  
-Universidade Presbiteriana Mackenzie 🏫✨  
-Faculdade de Computação e Informática 💻🔍
+# **Projeto de Classificação de Publicações Judiciais 📄⚖️**  
+Automação na Organização de Documentos Jurídicos  
+Universidade Presbiteriana Mackenzie 🏫  
+Faculdade de Computação e Informática 💻  
 
-## Autores:
-Bruno Galvão de Oliveira Lima 
-TIA: 10441285
+## **Autores**  
+- **Bruno Galvão de Oliveira Lima** - TIA: 10441285  
+- **Vitória Ferreira Corrêa** - TIA: 10441482  
+- **Lucas Santos Borba de Araujo** - TIA: 10176256  
+- **Anna Teresa Soares Sacchi** - TIA: 10441273  
 
-Vitória Ferreira Corrêa 
-TIA: 10441482
+## **Docente**  
+- **Prof. Felipe Albino dos Santos**  
 
-Lucas Santos Borba de Araujo
-TIA: 10176256
+**São Paulo - 2025** 🗓️  
 
-Victor Martins Oliveira 
-TIA: 10433534
+## **Resumo 📝**  
+O objetivo deste projeto é desenvolver um **modelo de classificação automatizada de publicações judiciais** utilizando **Processamento de Linguagem Natural (PLN) e Machine Learning**. Através da **API do Processo Judicial Eletrônico (PJe)**, serão coletados documentos jurídicos que, após tratamento e análise, serão classificados em categorias como **Citação, Intimação, Despacho e Decisão**.  
 
+A organização fictícia **Data for You SA** representa uma empresa especializada na **padronização e otimização do acesso a documentos jurídicos**, fornecendo soluções de automação para escritórios de advocacia, magistrados e servidores públicos.  
 
-## Docente:
-Prof. Thiago Graziani Traue  👨‍🏫  
-Prof. Vinicius Piro Barragam 👨‍🏫  
-SÃO PAULO 2024 🗓️
+O projeto utilizará **Python, PostgreSQL e algoritmos de aprendizado de máquina supervisionados** para garantir eficiência na organização dos documentos. Espera-se que a solução torne a consulta jurídica mais ágil e estruturada, reduzindo o tempo necessário para análise de publicações do sistema judiciário.  
 
-## Link da apresentação:
-https://youtu.be/gn-XIOldEcI
+---
 
-## Resumo 📝
-Este projeto tem como objetivo analisar os dados meteorológicos da cidade de Bauru, São Paulo, no período de 01/01/2004 a 01/01/2024. Utilizaremos técnicas de ciência de dados para explorar mudanças climáticas e transformações ambientais, com foco na identificação de tendências relacionadas ao aquecimento global. Os dados, obtidos do INMET, incluem informações sobre temperatura, precipitação, pressão atmosférica, umidade relativa, e vento.
+## **Sumário 📚**  
+1. **Apresentação da Empresa**  
+   - 1.1 Identificação e Propósito da Organização  
+   - 1.2 Segmento de Atuação e Market Share  
+   - 1.3 Proposta do Projeto e Problema de Pesquisa  
+   - 1.4 Fonte e Aquisição dos Dados  
+2. **Objetivos e Metas**  
+3. **Definição da Metodologia**  
+   - 3.1 Linguagem de Programação  
+   - 3.2 Análise Exploratória dos Dados  
+   - 3.3 Tratamento dos Dados e Engenharia de Features  
+   - 3.4 Modelos Analíticos e Critérios de Avaliação  
+4. **Resultados Preliminares**  
+5. **Cronograma**  
+6. **Repositório e Documentação**  
 
-## Sumário 📚
-1. **Contexto do Estudo**
-2. **Descrição da Origem**
-3. **Descrição do Dataset**
-4. **Objetivos e Metas**
-5. **Definições de Modelo Analítico**
-   - 5.1 Definição da Linguagem de Programação
-   - 5.2 Análise Exploratória da Base de Dados
-   - 5.3 Tratamento da Base de Dados
-   - 5.4 Bases Teóricas dos Métodos
-   - 5.5 Cálculo da Acurácia
-6. **Resultados**
-   - 6.1 Modelagem Preditiva
-   - 6.2 Resultados dos Modelos
-   - 6.3 Insights Extraídos das Análises
-   - 6.4 Soluções
-7. **Conclusão**
-8. **Cronograma**
-9. **Referências**
-10. **Contato dos Componentes do Grupo**
+---
 
-## Contexto do Estudo 🌍
-A mudança climática é um fenômeno global que tem impactos significativos em várias regiões do mundo. Este estudo foca na cidade de Bauru, no estado de São Paulo, analisando dados climáticos coletados nos últimos 20 anos para identificar tendências e mudanças que possam estar relacionadas ao aquecimento global.
+## **1. Apresentação da Empresa 🌎**  
 
-## Descrição da Origem 📈
-Os dados utilizados neste projeto foram obtidos do Banco de Dados Meteorológicos do INMET, acessível em [bdmep.inmet.gov.br](https://bdmep.inmet.gov.br/). Esses dados fornecem uma visão abrangente das condições climáticas na cidade de Bauru ao longo de duas décadas.
+### **1.1 Identificação e Propósito da Organização**  
+**Nome da Empresa:** **Data for You SA**  
+**Missão:** Automatizar a classificação e organização de documentos judiciais através de **inteligência artificial e análise de dados**, reduzindo o tempo gasto na busca por informações relevantes.  
+**Visão:** Democratizar o acesso a dados jurídicos e otimizar processos administrativos para advogados, magistrados e servidores públicos.  
 
-## Descrição do Dataset 📊
-O dataset contém informações diárias sobre:
-- **Precipitação Total**
-- **Pressão Atmosférica Média**
-- **Temperatura do Ponto de Orvalho Média**
-- **Temperatura Máxima, Mínima e Média**
-- **Umidade Relativa do Ar Média e Mínima**
-- **Vento (Rajada Máxima e Velocidade Média)**
+### **1.2 Segmento de Atuação e Market Share**  
+Atuação em **pesquisa e desenvolvimento jurídico**, incluindo **análise de dados processuais, automação e otimização da gestão de documentos judiciais**. O projeto será direcionado para:  
+- Conselho Nacional de Justiça (CNJ)  
+- Tribunais estaduais e federais  
+- Escritórios de advocacia  
+- Departamentos jurídicos de empresas  
 
-Esses dados permitirão uma análise detalhada das condições climáticas e suas mudanças ao longo do tempo.
+### **1.3 Proposta do Projeto e Problema de Pesquisa**  
+Será desenvolvido um **modelo de classificação textual** que organiza documentos jurídicos por assunto, facilitando a consulta e a interpretação das publicações judiciais. O problema de pesquisa envolve a **falta de padronização na categorização desses documentos**, tornando a análise manual demorada e ineficiente.  
 
-## Objetivos e Metas 🎯
-O principal objetivo é analisar as mudanças de temperatura e outras condições climáticas em Bauru ao longo dos últimos 20 anos, com foco em identificar tendências significativas que possam ser associadas ao aquecimento global e a outros fenômenos climáticos. O estudo visa fornecer insights valiosos sobre como as condições ambientais têm se transformado ao longo do tempo.
+Para resolver essa questão, o projeto será estruturado em **quatro fases principais**:  
+1. **Decomposição** → Identificação das categorias de documentos.  
+2. **Identificação de Padrões** → Extração de características semânticas e estruturais dos textos.  
+3. **Filtragem** → Remoção de ruídos e ambiguidades para melhorar a segmentação dos dados.  
+4. **Visualização** → Implementação de métricas e dashboards para monitoramento da segmentação automática.  
 
-## Definições de Modelo Analítico 🔍
-### Definição da Linguagem de Programação 🐍
-Python será utilizado para este projeto devido à sua vasta coleção de bibliotecas para análise de dados, incluindo pandas, numpy, seaborn, matplotlib, entre outras.
+### **1.4 Fonte e Aquisição dos Dados**  
+- **Origem dos Dados:** API do Processo Judicial Eletrônico (PJe)  
+- **Limitações de Uso:** Dados públicos sujeitos a restrições de precisão e atualização  
+- **Período de Coleta:** Publicações disponíveis entre **março de 2013 e 2025**  
 
-### Análise Exploratória da Base de Dados 📈
-Serão utilizadas técnicas como histogramas, gráficos de barras, e heatmaps para visualizar a distribuição dos dados e identificar padrões sazonais e mudanças ao longo do tempo.
+---
 
-### Tratamento da Base de Dados 🛠️
-O tratamento dos dados incluirá a limpeza dos mesmos, remoção de outliers e preenchimento de valores ausentes para garantir a precisão da análise.
+## **2. Objetivos e Metas 🎯**  
 
-### Bases Teóricas dos Métodos 📘
-Métodos estatísticos e de aprendizado de máquina serão aplicados, incluindo regressão linear e análise de clusters, para explorar e modelar os dados climáticos.
+### **2.1 Objetivo Geral**  
+Desenvolver um **modelo de classificação automática** de textos jurídicos para otimizar a gestão de documentos no sistema judiciário.  
 
+### **2.2 Objetivos Específicos**  
+- Coletar e processar os dados da **API do PJe**.  
+- Definir **categorias relevantes** para classificação das publicações.  
+- Implementar técnicas de **pré-processamento de texto**.  
+- Aplicar modelos de **Machine Learning** como **Random Forest e XGBoost**.  
+- Integrar os resultados em um banco de dados **PostgreSQL**.  
+- Avaliar o desempenho dos modelos utilizando **métricas de acurácia**.  
 
-## Resultados 🏆
-### Modelagem Preditiva 🔮
-Modelos de previsão serão aplicados para prever tendências futuras nas condições climáticas de Bauru, com base nos dados históricos.
+---
 
-### Resultados dos Modelos 📊
-Os resultados serão comparados para determinar a eficácia dos modelos na previsão das condições climáticas.
+## **5. Cronograma 📅**  
 
-### Insights Extraídos das Análises 💡
-Insights sobre mudanças sazonais e a influência de eventos climáticos extremos serão extraídos, ajudando a compreender melhor as transformações ambientais na região.
+- **Fevereiro/2025** - Definição da organização e planejamento inicial  
+- **Março/2025** - Coleta e tratamento dos dados  
+- **Abril/2025** - Implementação do modelo de classificação  
+- **Maio/2025** - Refinamento do projeto e entrega final  
 
-### Soluções 🛠️
-Propostas de estratégias para mitigar os impactos das mudanças climáticas em Bauru serão desenvolvidas com base nos insights obtidos.
+---
 
-## Conclusão 📌
-Este estudo fornecerá uma compreensão mais profunda das mudanças climáticas locais e contribuirá para o desenvolvimento de políticas públicas e estratégias de mitigação em Bauru.
+## **6. Repositório e Documentação 📂**  
+Link para o repositório no GitHub *(a ser adicionado após a criação do repositório do projeto).*  
 
-## Cronograma 📅
-Cronograma
-
-Encontro síncrono - 20/08/2024  
-Entrega A1 Aplicando Conhecimento - 02/09/2024  
-Encontro síncrono 2 - 03/09/2024  
-Encontro síncrono 3 - 17/09/2024  
-Entrega A2 Aplicando Conhecimento - 30/09/2024  
-Encontro síncrono 4 - 01/10/2024  
-Encontro síncrono 5 - 22/10/2024  
-Entrega A3 Aplicando Conhecimento - 28/10/2024  
-Encontro síncrono 6 - 29/10/2024  
-Entrega A4 Aplicando Conhecimento - 25/11/2024  
-
-
-## Referências 📚
-- Banco de Dados Meteorológicos do INMET (2004-2024)
-- Documentação das Bibliotecas Utilizadas
-
-## Contato dos Componentes do Grupo 📬
-
-Bruno Galvão de Oliveira Lima 
-TIA: 10441285
-Email : 10441285@mackenzista.com.br
-
-Vitória Ferreira Corrêa 
-TIA: 10441482
-Email: 10441482@mackenzista.com.br
-
-Lucas Santos Borba de Araujo
-TIA: 10176256
-Email: 10176256@mackenzista.com.br
-
-Victor Martins Oliveira 
-TIA: 10433534
-Email: 10433534@mackenzista.com.br
-
-
-
+---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6666&height=120&section=footer" width="100%" align="center">
-
-
 
