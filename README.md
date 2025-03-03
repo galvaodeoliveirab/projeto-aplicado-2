@@ -92,7 +92,7 @@ O projeto utilizará **Python, PostgreSQL e algoritmos de aprendizado de máquin
 ---
 
 ## **6. Repositório e Documentação 📂**  
-Link para o repositório no GitHub *(a ser adicionado após a criação do repositório do projeto).*  
+https://github.com/galvaodeoliveirab/projeto-aplicado-2*  
 
 ---
 
