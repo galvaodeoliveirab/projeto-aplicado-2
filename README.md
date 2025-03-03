@@ -50,57 +50,44 @@ O projeto utilizará **Python, PostgreSQL e algoritmos de aprendizado de máquin
 
 ---
 
-## **1. Apresentação da Empresa 🌎**  
-
-### **1.1 Identificação e Propósito da Organização**  
-**Nome da Empresa:** **Data for You SA**  
-**Missão:** Automatizar a classificação e organização de documentos judiciais através de **inteligência artificial e análise de dados**, reduzindo o tempo gasto na busca por informações relevantes.  
-**Visão:** Democratizar o acesso a dados jurídicos e otimizar processos administrativos para advogados, magistrados e servidores públicos.  
-
-### **1.2 Segmento de Atuação e Market Share**  
-Atuação em **pesquisa e desenvolvimento jurídico**, incluindo **análise de dados processuais, automação e otimização da gestão de documentos judiciais**. O projeto será direcionado para:  
-- Conselho Nacional de Justiça (CNJ)  
-- Tribunais estaduais e federais  
-- Escritórios de advocacia  
-- Departamentos jurídicos de empresas  
-
-### **1.3 Proposta do Projeto e Problema de Pesquisa**  
-Será desenvolvido um **modelo de classificação textual** que organiza documentos jurídicos por assunto, facilitando a consulta e a interpretação das publicações judiciais. O problema de pesquisa envolve a **falta de padronização na categorização desses documentos**, tornando a análise manual demorada e ineficiente.  
-
-Para resolver essa questão, o projeto será estruturado em **quatro fases principais**:  
-1. **Decomposição** → Identificação das categorias de documentos.  
-2. **Identificação de Padrões** → Extração de características semânticas e estruturais dos textos.  
-3. **Filtragem** → Remoção de ruídos e ambiguidades para melhorar a segmentação dos dados.  
-4. **Visualização** → Implementação de métricas e dashboards para monitoramento da segmentação automática.  
-
-### **1.4 Fonte e Aquisição dos Dados**  
-- **Origem dos Dados:** API do Processo Judicial Eletrônico (PJe)  
-- **Limitações de Uso:** Dados públicos sujeitos a restrições de precisão e atualização  
-- **Período de Coleta:** Publicações disponíveis entre **março de 2013 e 2025**  
-
----
-
-## **2. Objetivos e Metas 🎯**  
-
-### **2.1 Objetivo Geral**  
-Desenvolver um **modelo de classificação automática** de textos jurídicos para otimizar a gestão de documentos no sistema judiciário.  
-
-### **2.2 Objetivos Específicos**  
-- Coletar e processar os dados da **API do PJe**.  
-- Definir **categorias relevantes** para classificação das publicações.  
-- Implementar técnicas de **pré-processamento de texto**.  
-- Aplicar modelos de **Machine Learning** como **Random Forest e XGBoost**.  
-- Integrar os resultados em um banco de dados **PostgreSQL**.  
-- Avaliar o desempenho dos modelos utilizando **métricas de acurácia**.  
-
----
-
 ## **5. Cronograma 📅**  
 
-- **Fevereiro/2025** - Definição da organização e planejamento inicial  
-- **Março/2025** - Coleta e tratamento dos dados  
-- **Abril/2025** - Implementação do modelo de classificação  
-- **Maio/2025** - Refinamento do projeto e entrega final  
+### **Fase 1 - Definição do Projeto e Organização dos Dados** *(Entrega Final: 03/03/2025)*  
+- **01/02/2025** - Formação do grupo e definição da organização fictícia  
+- **05/02/2025** - Definição da área de atuação e descrição detalhada da empresa  
+- **08/02/2025** - Escolha do tipo de dado a ser utilizado (texto)  
+- **12/02/2025** - Pesquisa e coleta inicial dos dados disponíveis na API do PJe  
+- **16/02/2025** - Análise preliminar dos dados e definição dos metadados  
+- **20/02/2025** - Documentação inicial do projeto no GitHub  
+- **26/02/2025** - Revisão e ajustes finais do relatório da A1  
+- **03/03/2025** - Entrega da A1: Relatório com definição da empresa, área de atuação, apresentação dos dados, objetivos e cronograma estimado  
+
+### **Fase 2 - Definição da Metodologia e Preparação dos Dados** *(Entrega Final: 31/03/2025)*  
+- **05/03/2025** - Definição da linguagem de programação e das tecnologias a serem utilizadas  
+- **08/03/2025** - Análise exploratória dos dados coletados, incluindo estatísticas descritivas e visualizações  
+- **12/03/2025** - Aplicação de técnicas de tratamento e limpeza dos dados, como remoção de ruídos e tokenização de texto  
+- **17/03/2025** - Definição das bases teóricas do projeto, incluindo escolha dos algoritmos de Machine Learning  
+- **22/03/2025** - Planejamento da métrica de avaliação da acurácia do modelo  
+- **27/03/2025** - Revisão e ajustes finais do relatório da A2  
+- **31/03/2025** - Entrega da A2: Relatório detalhado sobre metodologia, análise exploratória e preparação dos dados  
+
+### **Fase 3 - Implementação do Modelo e Análise dos Resultados** *(Entrega Final: 28/04/2025)*  
+- **02/04/2025** - Aplicação do modelo de Machine Learning na base de dados processada  
+- **06/04/2025** - Testes de diferentes algoritmos (Random Forest, XGBoost) para comparação de desempenho  
+- **11/04/2025** - Avaliação da acurácia do modelo e ajustes de hiperparâmetros  
+- **16/04/2025** - Desenvolvimento de um rascunho do modelo de negócios para a aplicação real da solução  
+- **21/04/2025** - Criação do esboço do storytelling para a apresentação final  
+- **25/04/2025** - Revisão e ajustes finais do relatório da A3  
+- **28/04/2025** - Entrega da A3: Implementação do modelo analítico, apresentação dos resultados preliminares e esboço do storytelling  
+
+### **Fase 4 - Finalização do Projeto e Apresentação Final** *(Entrega Final: 26/05/2025)*  
+- **02/05/2025** - Refinamento da documentação técnica do projeto  
+- **06/05/2025** - Estruturação e organização do repositório no GitHub  
+- **10/05/2025** - Finalização da apresentação do storytelling e do relatório técnico  
+- **15/05/2025** - Revisão geral do projeto e testes finais do modelo  
+- **19/05/2025** - Gravação e edição do vídeo de apresentação  
+- **23/05/2025** - Revisão e ajustes finais do relatório da A4  
+- **26/05/2025** - Entrega da A4: Relatório técnico final, apresentação do storytelling, repositório do projeto no GitHub e vídeo de apresentação  
 
 ---
 
@@ -110,4 +97,3 @@ Link para o repositório no GitHub *(a ser adicionado após a criação do repos
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6666&height=120&section=footer" width="100%" align="center">
-
