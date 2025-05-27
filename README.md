@@ -33,24 +33,24 @@ O trabalho utiliza técnicas de Processamento de Linguagem Natural (PLN), vetori
 
 ## **Sumário**
 
-1. [Introdução](#introdução)  
-2. [Definição da Empresa](#definição-da-empresa)  
+1. [Introdução](#1-introdução)  
+2. [Definição da Empresa](#2-definição-da-empresa)  
    - 2.1 Identificação e Propósito  
    - 2.2 Segmento de Atuação e Market Share  
    - 2.3 Problema de Pesquisa  
    - 2.4 Fonte e Aquisição dos Dados  
-3. [Apresentação dos Dados (Metadados)](#apresentação-dos-dados-metadados)  
+3. [Apresentação dos Dados (Metadados)](#3-apresentação-dos-dados-metadados)  
    - 3.1 Fonte e Estrutura  
    - 3.2 Análise Exploratória  
    - 3.3 Linguagem de Programação e Bibliotecas  
    - 3.4 Tratamento de Dados  
    - 3.5 Bases Teóricas dos Métodos  
    - 3.6 Avaliação de Acurácia  
-4. [Objetivos e Metas](#objetivos-e-metas)  
-5. [Storytelling](#storytelling)  
-6. [Produto Final e Modelo de Negócio](#produto-final-e-modelo-de-negócio)  
-7. [Conclusão](#conclusão)  
-8. [Repositório](#repositório)
+4. [Objetivos e Metas](#4-objetivos-e-metas)  
+5. [Storytelling](#5-storytelling)  
+6. [Produto Final e Modelo de Negócio](#6-produto-final-e-modelo-de-negócio)  
+7. [Conclusão](#7-conclusão)  
+8. [Repositório](#8-repositório)
 
 ---
 
@@ -83,16 +83,16 @@ API do Processo Judicial Eletrônico (PJe), abrangendo publicações de 2013 a 2
 A base de dados é composta por três colunas: `id`, `tipoComunicacao`, `texto`.
 
 ### 3.2 Análise Exploratória  
-- 10.000 registros
-- 5 categorias principais de publicações
+- 10.000 registros  
+- 5 categorias principais de publicações  
 - Tamanho médio dos textos: ~2.000 caracteres
 
 ### 3.3 Linguagem de Programação e Bibliotecas  
-Utilizamos **Python** com as seguintes bibliotecas:
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Scikit-learn
+Utilizamos **Python** com as seguintes bibliotecas:  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- Scikit-learn  
 - TfidfVectorizer
 
 ### 3.4 Tratamento de Dados  
@@ -103,10 +103,10 @@ Utilizamos **Python** com as seguintes bibliotecas:
 - Split treino/teste 80/20
 
 ### 3.5 Bases Teóricas dos Métodos  
-Modelos testados:
-- Random Forest
-- Regressão Logística
-- Naive Bayes
+Modelos testados:  
+- Random Forest  
+- Regressão Logística  
+- Naive Bayes  
 - Redes Neurais
 
 ### 3.6 Avaliação de Acurácia  
@@ -137,8 +137,8 @@ Identificamos o problema de desorganização das publicações judiciais e propu
 ## **6. Produto Final e Modelo de Negócio**
 
 ### Produto Final  
-- Sistema Automatizado de Classificação de Publicações Judiciais
-- Armazenamento PostgreSQL
+- Sistema Automatizado de Classificação de Publicações Judiciais  
+- Armazenamento PostgreSQL  
 - Interface para consulta e análise
 
 ### Modelo de Negócio  
@@ -156,7 +156,8 @@ O projeto validou o uso de Machine Learning para classificação de documentos j
 
 ## **8. Repositório**
 
-🔗 GitHub: [https://github.com/galvaodeoliveirab/projeto-aplicado-2](https://github.com/galvaodeoliveirab/projeto-aplicado-2)
+🔗 GitHub: [https://github.com/galvaodeoliveirab/projeto-aplicado-2](https://github.com/galvaodeoliveirab/projeto-aplicado-2)  
+📺 YouTube: [https://youtu.be/XrkMU9g7EsM](https://youtu.be/XrkMU9g7EsM)
 
 ---
 
